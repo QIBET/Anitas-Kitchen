@@ -14,7 +14,12 @@
     align-items: center;
 }
 
-.Fastfood > h4{
-    display: flex;
+.Fastfood {
+    float: left;
     
+}
+.flavour{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
 }
