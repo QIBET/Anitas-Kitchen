@@ -1,3 +1,6 @@
+{
+    background-color: #F15A29;
+}
 #image{
     background-image: url(./assets/others/landing.jpg);
     margin: 50px;
@@ -20,6 +23,10 @@
 }
 .flavour{
     display: flex;
-    justify-content: left;
-    flex-direction: row;
+    align-items: baseline;
+
+    
+}
+#ground{
+    background-image: url(/assets/backgrounds/subscribe.jpg);
 }
