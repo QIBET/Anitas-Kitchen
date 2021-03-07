@@ -104,3 +104,8 @@
     position: relative;
     justify-content: space-evenly;
 }
+#ground{
+    background-image: url(./assets/backgrounds/subscribe.jpg);
+    color: white;
+    text-align: center;
+}
