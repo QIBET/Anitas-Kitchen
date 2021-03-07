@@ -1,33 +1,53 @@
-{
-    background-color: #F15A29;
-}
 #image{
-    background-image: url(./assets/others/landing.jpg);
-    margin: 50px;
-    padding: 70px;
-    background-repeat: no-repeat;
-    background-position: top;
-    float: center;
-}
-.taste > h3 {
-    border-style: solid;
-    width: 110px;
-    height: 30px;
-    margin: 30;
-    padding: 30;
-    align-items: center;
+    text-align: center;
+    background-image: url(./assets/backgrounds/landing.jpg);
+    background-position: center;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+
 }
 
-.Fastfood {
-    float: left;
-    
+span.party{
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #F15A29 ;    
+    background-color: #F15A29; 
+    color: white;
+    clear: right;
 }
-.flavour{
-    display: flex;
-    align-items: baseline;
+span.happy{
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid grey;    
+    background-color: grey); 
+    color: black;
+    opacity: 0.8;
+    
+  
+}
 
+.taste{
+    display: inline-flex;
     
+    
+} 
+.meals{
+    display: block;
+    padding: 0;
+    width: 0;
+   
+} 
+.clear{
+    clear: right;
 }
-#ground{
-    background-image: url(./assets/backgrounds/subscribe.jpg);
+.drinks{
+    float: right;
+}
+.drink{
+    clear: left;
 }
