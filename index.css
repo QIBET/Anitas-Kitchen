@@ -8,29 +8,52 @@
 
 }
 
-span.party{
-    display: block;
-    width: 150px;
-    height: 50px;
-    padding: 5px;
-    border: 1px solid #F15A29 ;    
-    background-color: #F15A29; 
-    color: white;
-    clear: right;
+.foods{
+    text-align: center;
+    border: 2px solid white;
+    height: 200px;
+    /*width: 100px; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
-span.happy{
-    display: block;
-    width: 150px;
-    height: 50px;
-    padding: 5px;
-    border: 1px solid grey;    
-    background-color: grey); 
-    color: black;
-    opacity: 0.8;
-    
-  
+.foods div{
+    border: 2px solid white;
+    width: 50%;
+    height: 100%;
 }
+#combine{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: inline;
 
+}
+#happy{
+    background-color: lightgrey;
+    height: 50%;
+    width: 100%;
+}
+#party{
+    background-color: #F15A29;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+#breakfast{
+    background-image: url(./assets/foodtop/breakfast.jpg);
+    color: white;
+
+}
+#Lunch{
+    background-image: url(./assets/foodtop/lunch.jpg);
+    color: white;
+}
+#dinner{
+    background-image: url(./assets/foodtop/dinner.jpg);
+    color: white;
+    align-items: center;
+}
 .taste{
     display: inline-flex;
     
@@ -50,4 +73,7 @@ span.happy{
 }
 .drink{
     clear: left;
+}
+.major{
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
 }
