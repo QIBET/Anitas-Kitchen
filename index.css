@@ -7,6 +7,7 @@
     padding: 70px;
     background-repeat: no-repeat;
     background-position: top;
+    float: center;
 }
 .taste > h3 {
     border-style: solid;
