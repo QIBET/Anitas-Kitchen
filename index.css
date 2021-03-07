@@ -60,19 +60,26 @@
     
 } 
 .meals{
-    display: block;
-    padding: 0;
-    width: 0;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
    
 } 
-.clear{
+
+#meal{
     clear: right;
+    line-height: 2rem;
 }
 .drinks{
+    
     float: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .drink{
     clear: left;
+    line-height: 3rem;
 }
 .major{
     background-image: url(./assets/backgrounds/foodsBg.jpg);
