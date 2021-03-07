@@ -83,4 +83,24 @@
 }
 .major{
     background-image: url(./assets/backgrounds/foodsBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.major nav{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  overflow: auto;
+  color: lightgrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#flavour{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
 }
