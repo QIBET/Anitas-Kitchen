@@ -108,4 +108,18 @@
     background-image: url(./assets/backgrounds/subscribe.jpg);
     color: white;
     text-align: center;
+    margin-bottom: 0px;
+}
+.clients{
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+    overflow: scroll;
+}
+.menu{
+    border: 1px solid #F15A29;
+    background-color: #F15A29;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
 }
